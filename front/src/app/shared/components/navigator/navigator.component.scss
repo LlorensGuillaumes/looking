@@ -1,0 +1,10 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(75, 75, 75);
+    padding: 40px 0 40px 0;
+    &__a {
+        color: rgb(196, 196, 206);
+        font-size: 30px;
+    }
+}
