@@ -1,6 +1,5 @@
 {
-    "hotels": [
-        {
+    "hotels": [{
             "id": 1,
             "name": "VIVOOD BENIMANTELL",
             "image": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1289946.jpg",
@@ -18,13 +17,13 @@
             "id": 2,
             "name": "Asia Gardens Hotel & Thai Spa",
             "image": "https://okdiario.com/coolthelifestyle/img/2021/12/09/princi-ok-1.jpg",
-            "imageDetail": ["https://static-new.lhw.com/HotelImages/Final/LW1436/lw1436_76482994_960x540.jpg", "https://www.asiagardens.es/res/uploads/20151204145559-02-habdeluxe-supgaleria-1800x7004.jpg","https://www.asiagardens.es/res/uploads/20151206111833-05-habsuite-bangaleria-1800x7001.jpg"],
+            "imageDetail": ["https://static-new.lhw.com/HotelImages/Final/LW1436/lw1436_76482994_960x540.jpg", "https://www.asiagardens.es/res/uploads/20151204145559-02-habdeluxe-supgaleria-1800x7004.jpg", "https://www.asiagardens.es/res/uploads/20151206111833-05-habsuite-bangaleria-1800x7001.jpg"],
             "enlace": "https://www.barcelo.com/es-es/asia-gardens-hotel-thai-spa-a-royal-hideaway-hotel/?id_hotel_sem=7326&gclid=CjwKCAiArY2fBhB9EiwAWqHK6si-_KYhYh3apYiiCBGzObhcwg660_4IkrA3N42KpDelC0NjUZsBsxoCHBEQAvD_BwE&nclid=AZH5b4SP-BWUPfCW8t2-Sr3TX1KTTF3X3wZlLfkp_DkEOPpfmSZe7pIgQ7wKmOKd",
             "description": "",
             "ubication": "https://www.google.es/maps/place/Asia+Gardens+Hotel+%26+Thai+Spa/@38.5533058,-0.1730025,17z/data=!3m1!4b1!4m8!3m7!1s0xd621b6bdf8d175f:0xafccb5fcc9f6e93e!5m2!4m1!1i2!8m2!3d38.5533016!4d-0.1708138?hl=es",
-            "stars": 5 ,
+            "stars": 5,
             "rating": 4.6,
-            "pricePerNight": 360 ,
+            "pricePerNight": 360,
             "capacity": ""
 
         },
@@ -32,12 +31,12 @@
             "id": 3,
             "name": "Port Aventura World River",
             "image": "https://www.booking.com/hotel/es/portaventura-r-gold-river.es.html?aid=318615&label=New_Spanish_ES_ES_21463012105-LPwjRe8TaU%2Ats8W_n17MsAS217272873548%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=b702bd9df9aa61ab59b40b87b90c52b8&dest_id=-400284;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1675887026;srpvid=894f8dd85f7401a9;type=total;ucfs=1&#",
-            "imageDetail": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/63154259.jpg?k=ccf16c1f1bf0a118e04cd25656ebbfb6c9094940790d2d412217a1f4f06f6650&o=", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/131650430.jpg?k=bf810f764e41d37d46df6fdc38498c9049490984eea7f60731d2223d5984fab2&o=","https://cf.bstatic.com/xdata/images/hotel/max1024x768/63154273.jpg?k=8d12961ef440bc5fdf8f9c2eb3617a79647d99a001fbd14d5c0e6ff4f5829552&o="],
+            "imageDetail": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/63154259.jpg?k=ccf16c1f1bf0a118e04cd25656ebbfb6c9094940790d2d412217a1f4f06f6650&o=", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/131650430.jpg?k=bf810f764e41d37d46df6fdc38498c9049490984eea7f60731d2223d5984fab2&o=", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/63154273.jpg?k=8d12961ef440bc5fdf8f9c2eb3617a79647d99a001fbd14d5c0e6ff4f5829552&o="],
             "enlace": "https://www.portaventuraworld.com/hoteles/port-aventura",
             "description": "Hotel feo y cutre por el que pagas una pasta debido a que está al lado del parque de Port Aventura, puedes saltar desde la ventana de la habitación directamente al DragonKan",
             "ubication": "https://www.google.es/maps/search/portaventura+gold+river/@41.0919702,1.1521963,17z/data=!3m1!4b1?hl=es",
-            "stars":1.5,
-            "rating": 2.6 ,
+            "stars": 1.5,
+            "rating": 2.6,
             "pricePerNight": 250,
             "capacity": "26"
 
@@ -55,5 +54,131 @@
             "capacity": ""
 
         },
+        {
+            "id": 5,
+            "name": "Gran Hotel Sol y Mar",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/6961574.jpg?k=5389d99ed669883f69b782e0363c0e8ee83dba88c0bdac8543ec4ac9de85a9ac&o=&hp=1",
+            "imageDetail": ["https://media-cdn.tripadvisor.com/media/photo-s/1b/17/e0/86/habitacion-ejecutiva.jpg,", "https://c.otcdn.com/imglib/hotelfotos/8/203/gran-hotel-sol-y-mar-calpe-050.jpg", "https://granhotelsolymar.com/wp-content/uploads/sites/3/2020/01/6.jpg", "https://z.cdrst.com/foto/hotel-sf/b7b4/granderesp/gran-hotel-sol-y-mar-adults-only-habitacion-c08a76e.jpg"],
+            "enlace": "https://granhotelsolymar.com/?partner=7398utm_source%3Dgoogle&utm_medium=organic&utm_campaign=MyBusiness&utm",
+            "description": "Hotel exclusivo con habitaciones y suites elegantes, restaurante, piscina y spa con bañera de hidromasaje.",
+            "ubication": "https://www.google.com/travel/hotels/Espa%C3%B1a/entity/CgsI6_m2mquy6IyEARAB/location?q=hoteles%20espa%C3%B1a&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4429192%2C4515404%2C4597339%2C4723331%2C4731329%2C4754388%2C4757164%2C4778035%2C4814050%2C4821091%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4926165%2C4926489%2C4930751%2C4930752%2C4931360%2C4934307%2C4936396%2C4937897%2C4942347%2C4950242&hl=es-ES&gl=es&cs=1&ssta=1&ts=CAESABogCgIaABIaEhQKBwjnDxACGA0SBwjnDxACGA4YATICEAAqCQoFOgNFVVIaAA&rp=EIeqsMqdnZKdhQEQ6_m2mquy6IyEARDx1-2Y8_2BxK8BENn1m5CR9tqwiAE4AUAASAKiAQdFc3Bhw7FhwAEDmgICCAA&ap=aAE&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls",
+            "stars": 4,
+            "rating": 4.6,
+            "pricePerNight": 87,
+            "capacity": "2"
+
+        },
+        {
+
+            "id": 6,
+            "name": "Hard Rock Hotel",
+            "image": "https://static.abc.es/media/espana/2018/10/10/hard-rock-hotel-knBE--1248x698@abc.jpg",
+            "imageDetail": ["https://www.hardrockhotels.com/madrid/files/6275/HRH_MAD-DELUXE_ROOM_01.jpg", "https://www.hardrockhotels.com/madrid/files/6275/HRH_MAD-LOBBY_GMT_04.jpg", "https://www.hardrockhotels.com/madrid/es/files/6308/16818685_ImageLargeWidth.jpg"],
+            "enlace": "https://www.hardrockhotels.com/madrid/?WT.mc_id=gmb_web_button",
+            "description": "Hotel con habitaciones modernas, restaurante, bar en la azotea, piscina exterior y gimnasio.",
+            "ubication": "https://www.google.com/travel/hotels/Espa%C3%B1a/entity/CgsI6_m2mquy6IyEARAB/location?q=hoteles%20espa%C3%B1a&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4429192%2C4515404%2C4597339%2C4723331%2C4731329%2C4754388%2C4757164%2C4778035%2C4814050%2C4821091%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4926165%2C4926489%2C4930751%2C4930752%2C4931360%2C4934307%2C4936396%2C4937897%2C4942347%2C4950242&hl=es-ES&gl=es&cs=1&ssta=1&ts=CAESABogCgIaABIaEhQKBwjnDxACGA0SBwjnDxACGA4YATICEAAqCQoFOgNFVVIaAA&rp=EIeqsMqdnZKdhQEQ6_m2mquy6IyEARDx1-2Y8_2BxK8BENn1m5CR9tqwiAE4AUAASAKiAQdFc3Bhw7FhwAEDmgICCAA&ap=aAE&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls",
+            "stars": 4,
+            "rating": 4.4,
+            "pricePerNight": 187,
+            "capacity": "2"
+
+        },
+        {
+            "id": 7,
+            "name": "Hotel Mandarín Oriental Ritz",
+            "image": "https://static.hosteltur.com/app/public/uploads/img/articles/2020/10/08/L_210243_ritz-principal.jpg",
+            "imageDetail": ["https://media-cdn.tripadvisor.com/media/photo-s/1d/85/11/06/mandarin-oriental-ritz.jpg", "https://cf.bstatic.com/xdata/images/hotel/max500/307622030.jpg?k=e0975fc580dbebf1ce4f33ea3f706abb170f3e90c8638ab755a1aac958b4fdd7&o=&hp=1", "https://media.timeout.com/images/105765468/750/422/image.jpg"],
+            "enlace": "https://www.mandarinoriental.com/en/madrid/hotel-ritz?src=loc.local_listing.rzmad.ggl",
+            "description": "Hotel lujoso en un opulento edificio de 1910 con bar de caviar, té con pastas y sándwiches, y un spa refinado.",
+            "ubication": "https://www.google.com/maps?hl=es&gl=ES&um=1&ie=UTF-8&fb=1&sa=X&geocode=KWHwvimDKEINMYQhDslapLu5&daddr=Hotel+Mandar%C3%ADn+Oriental+Ritz,+Pl.+de+la+Lealtad,+5,+28014+Madrid",
+            "stars": 5,
+            "rating": 4.6,
+            "pricePerNight": 1155,
+            "capacity": "2"
+        },
+        {
+            "id": 7,
+            "name": "Hotel Marqués de Riscal, a Luxury Collection Hotel, Elciego",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/253723802.jpg?k=29d450b4354201314471edfa87eac47e30652966ac75fd40635001ab0267be04&o=&hp=1",
+            "imageDetail": ["https://www.marquesderiscal.com/public/Image/2020/7/suite-gehry_ExtraGrande.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/0d/09/6e/hotel-marques-de-riscal.jpg?w=1200&h=-1&s=1", "https://www.myboutiquehotel.com/photos/5014/marques-de-riscal-a-luxury-collection-elciego-041-68478-1110x700.jpg"],
+            "enlace": "https://www.marriott.com/en-us/hotels/biolc-hotel-marques-de-riscal-a-luxury-collection-hotel-elciego/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+            "description": "Hotel diseñado por Frank Gehry con vistas a un viñedo, un restaurante famoso y un spa con temática vinícola.",
+            "ubication": "https://www.google.com/travel/hotels/Espa%C3%B1a/entity/CgoIj7LSw_6Ly-FeEAE/location?q=hoteles%20caros%20espa%C3%B1a&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4429192%2C4515404%2C4597339%2C4723331%2C4731329%2C4754388%2C4757164%2C4778035%2C4814050%2C4821091%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4926165%2C4926489%2C4930751%2C4930752%2C4931360%2C4934307%2C4936396%2C4937897%2C4942347%2C4950242&hl=es-ES&gl=es&cs=1&ssta=1&ts=CAESABogCgIaABIaEhQKBwjnDxACGA0SBwjnDxACGA4YATICEAAqDQoJEgIEBToDRVVSGgA&rp=EL7S28_Mv63mrwEQoOX01Ki2v_R5EITDuMisi-nduQEQj7LSw_6Ly-FeOAFAAEgCogEHRXNwYcOxYcABA5oCAggA&ap=aAE&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls",
+            "stars": 5,
+            "rating": 4.5,
+            "pricePerNight": 449,
+            "capacity": "2"
+        },
+        {
+            "id": 8,
+            "name": "Four Seasons Hotel Madrid",
+            "image": "https://estaticos.esmadrid.com/cdn/farfuture/v1bm8MhVfzUntsxbYCy0b6o3aC4EgRCUDIXvGhNmD-M/mtime:1646729708/sites/default/files/styles/content_type_full/public/recursosturisticos/alojamientos/mmd_008.jpg?itok=SSuOfBRt",
+            "imageDetail": ["https://estaticos.esmadrid.com/cdn/farfuture/RUvyR9mWbo_afrpFcKxcywZQcx_AkiCU57I5hIUgtPY/mtime:1646729709/sites/default/files/styles/content_type_full/public/recursosturisticos/alojamientos/2_deluxe_room.jpg?itok=7N006eaK", "https://static.abc.es/media/MM/2020/09/28/5_fourseasons_lamela-kqJ--1200x900@abc.jpg"],
+            "description": "Hotel sofisticado con restaurantes, cafetería, spa, piscina cubierta y terraza en la azotea",
+            "ubication": "https://www.google.com/travel/hotels/Espa%C3%B1a/entity/CgoIoOX01Ki2v_R5EAE/location?q=hoteles%20caros%20espa%C3%B1a&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4429192%2C4515404%2C4597339%2C4723331%2C4731329%2C4754388%2C4757164%2C4778035%2C4814050%2C4821091%2C4861688%2C4864715%2C4874190%2C4886082%2C4886480%2C4893075%2C4902277%2C4926165%2C4926489%2C4930751%2C4930752%2C4931360%2C4934307%2C4936396%2C4937897%2C4942347%2C4950242&hl=es-ES&gl=es&cs=1&ssta=1&ts=CAESABogCgIaABIaEhQKBwjnDxACGA0SBwjnDxACGA4YATICEAAqDQoJEgIEBToDRVVSGgA&rp=EL7S28_Mv63mrwEQoOX01Ki2v_R5EITDuMisi-nduQEQj7LSw_6Ly-FeOAFAAEgCogEHRXNwYcOxYcABA5oCAggA&ap=aAE&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls",
+            "rating": 4.6,
+            "pricePerNight": 935,
+            "capacity": "2"
+        }
+
+    ],
+    "cutreHotels": [
+
+
+        {
+            "id": 1,
+            "name": "hotel Joma",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/98/c6/a1/20160816-084050-largejpg.jpg?w=900&h=-1&s=1",
+            "imageDetail": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/3d/a7/61/hotel-joma-limpio-limpio.jpg?w=1000&h=-1&s=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b4/87/d7/joma.jpg?w=1200&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/1e/4b/2e/joma.jpg?w=1000&h=-1&s=1”,”https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/89/f2/ab/lavabo.jpg?w=1000&h=-1&s=1"
+            ],
+            "enlace": "https://www.hoteljoma.com/",
+            "description": "Te ofrecemos un lugar de refugio donde podrás descansar, relajarte, conversar, disfrutar y compartir.Todas y cada una de nuestras están diseñadas exclusivamente de manera que podemos garantizarte el absoluto descanso que buscas tras una jornada turística, de trabajo o de cualquier tipo.",
+            "ubication": "https://www.google.es/maps/dir//Hotel+Joma/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd0dc693159e2fb7:0x780fc8202b449d41?sa=X&ved=2ahUKEwi5r5G8kon9AhVZSKQEHVgjBPIQ9Rd6BAh1EAQ",
+            "stars": 2,
+            "rating": 1.6,
+            "pricePerNight": 34,
+            "capacity": "4"
+        },
+        {
+            "id": 2,
+            "name": "hostal Canaletas",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7e/08/c6/hostal-canaletas.jpg?w=1000&h=-1&s=1",
+            "imageDetail": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/95/73/7f/quarto-133.jpg?w=1000&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/7a/59/c6/hostal-canaletas.jpg?w=1000&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/7a/59/83/hostal-canaletas.jpg?w=1000&h=-1&s=1"],
+            "enlace": "https://www.tripadvisor.es/Hotel_Review-g652130-d1754346-Reviews-Hostal_Canaletas-Igualada_Catalonia.html",
+            "description": "Ofrece habitaciones cómodas con calefacción, conexión Wi-Fi y unas vistas impresionantes a la ciudad.",
+            "ubication": "https://www.google.es/maps/dir//hostal+canaletas/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x12a469dee20a24c5:0xd3c4879124b8e17b?sa=X&ved=2ahUKEwjH8Kvek4n9AhWSsKQKHXy0ANcQ9Rd6BAheEAQ",
+            "stars": 2,
+            "rating": 2,
+            "pricePerNight": 27,
+            "capacity": "4"
+        },
+        {
+            "id": 3,
+            "name": "Hotel arriaga",
+            "image": "https://www.hotelarriaga.es/files/hotel/hotel-arriaga/FotoHotel3D.jpg",
+            "imageDetail": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-s/00/1d/4f/1b/arriaga.jpg?w=600&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/00/1d/4f/1b/arriaga.jpg?w=600&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ff/54/ff/arriaga.jpg?w=1200&h=-1&s=1"],
+            "enlace": "https://www.tripadvisor.es/Hotel_Review-g187454-d237002-Reviews-Arriaga-Bilbao_Province_of_Vizcaya_Basque_Country.html#/media/237002/348453829:p/?albumid=101&type=2&category=101",
+            "description": "El hotel dispone de Wi-Fi gratuito y también cuenta con un cibercorner con ordenador, impresora y escaner; más una conexión RJ45 por si no dispone de Wi-Fi.",
+            "ubication": "https://www.google.com/maps/dir//hotel+arriaga/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd4e4fce633959e3:0x9889f27dadaff92?sa=X&ved=2ahUKEwj7iZeamIn9AhVriP0HHWjRA2YQ9Rd6BAhqEAQ",
+            "stars": 3,
+            "rating": 3,
+            "pricePerNight": 43,
+            "capacity": "2"
+        },
+        {
+            "id": 4,
+            "name": "Big house jerez",
+            "image": ["https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/27/fc/e2/97/caption.jpg?w=900&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/27/ec/45/a9/caption.jpg?w=900&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/27/9b/d8/3c/caption.jpg?w=900&h=-1&s=1"],
+            "enlace": "https://www.tripadvisor.es/Hotel_Review-g227869-d15212868-Reviews-Big_House_Jerez-Jerez_De_La_Frontera_Costa_de_la_Luz_Andalucia.html#/media/15212868/670884501:p/?albumid=101&type=0&category=101",
+            "description": "El Big House Jerez se encuentra a 45 km del campo de golf Novo Sancti Petri y ofrece alojamiento con salón compartido, terraza y cocina compartida",
+            "ubication": "https://www.google.es/maps/dir/41.5599997,2.5011914/Big+House+Jerez/@39.0666626,-6.3120964,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0dc7a88c0b5d6b:0x7879f93efb7dcbfb!2m2!1d-6.1430572!2d36.6855776",
+            "stars": 5,
+            "rating": 6,
+            "pricePerNight": 58,
+            "capacity": "3"
+        }
+
+
     ]
 }
