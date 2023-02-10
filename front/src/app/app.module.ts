@@ -1,3 +1,4 @@
+import { HotelFormComponent } from './shared/components/hotel-form/hotel-form.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -8,12 +9,15 @@ import { HotelDetailComponent } from './pages/hotel-detail/hotel-detail.componen
 import { HotelsComponent } from './pages/hotels/hotels.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
 import { ApiService } from './shared/services/api.service';
+
 @NgModule({
   declarations: [
     AppComponent,
     HotelDetailComponent,
     HotelsComponent,
-    NavigatorComponent
+    NavigatorComponent,
+    HotelFormComponent
+    
   ],
   imports: [
     BrowserModule,

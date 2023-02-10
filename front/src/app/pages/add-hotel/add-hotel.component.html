@@ -1,1 +1,20 @@
-<p>add-hotel works!</p>
+<form [formGroup]="hotelForm" (ngSubmit) = 'addHotel()'>
+    <div>
+        <input type="text" placeholder="id" formControlName="id">
+        <input type="text" placeholder="name" formControlName="name">
+        <input type="text" placeholder="image" formControlName="image">
+        <div>
+            <input type="text" placeholder="imageDetail" formControlName="imageDetail"> 
+            <button type="button" (click) = 'addImageDetail()'> add imageDetail</button>
+        </div>
+        <input type="text" placeholder="enlace" formControlName="enlace">
+        <input type="text" placeholder="description" formControlName="description">
+        <input type="text" placeholder="ubication" formControlName="ubication">
+        <input type="text" placeholder="stars" formControlName="stars">
+        <input type="text" placeholder="rating" formControlName="rating">
+        <input type="text" placeholder="pricePerNight" formControlName="pricePerNight">
+        <input type="text" placeholder="capacity" formControlName="capacity">
+        <button>Añadir hotel</button>
+    </div>
+    
+</form>
