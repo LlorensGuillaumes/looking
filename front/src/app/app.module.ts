@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HotelDetailComponent } from './pages/hotel-detail/hotel-detail.component';
 import { HotelsComponent } from './pages/hotels/hotels.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
-
+import { ApiService } from './shared/services/api.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,9 +17,10 @@ import { NavigatorComponent } from './shared/components/navigator/navigator.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
