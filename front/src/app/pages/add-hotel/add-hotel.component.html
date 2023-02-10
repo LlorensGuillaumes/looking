@@ -1,20 +1,23 @@
-<form [formGroup]="hotelForm" (ngSubmit) = 'addHotel()'>
-    <div>
-        <input type="text" placeholder="id" formControlName="id">
-        <input type="text" placeholder="name" formControlName="name">
-        <input type="text" placeholder="image" formControlName="image">
+<form [formGroup]="hotelForm" (ngSubmit)='addHotel()'>
+    <div class="container">
+        <input type="text" placeholder="Id" formControlName="id">
+        <input type="text" placeholder="Nombre" formControlName="name">
+        <input type="text" placeholder="Imagen" formControlName="image">
         <div>
-            <input type="text" placeholder="imageDetail" formControlName="imageDetail"> 
-            <button type="button" (click) = 'addImageDetail()'> add imageDetail</button>
+            <input class="input-detail" type="text" placeholder="Imagenes extra" formControlName="imageDetail">
+            <button class="img-button" type="button" (click)='addImageDetail()'> Guardar</button>
         </div>
-        <input type="text" placeholder="enlace" formControlName="enlace">
-        <input type="text" placeholder="description" formControlName="description">
-        <input type="text" placeholder="ubication" formControlName="ubication">
-        <input type="text" placeholder="stars" formControlName="stars">
-        <input type="text" placeholder="rating" formControlName="rating">
-        <input type="text" placeholder="pricePerNight" formControlName="pricePerNight">
-        <input type="text" placeholder="capacity" formControlName="capacity">
-        <button>Añadir hotel</button>
+        <input type="text" placeholder="Enlace" formControlName="enlace">
+        <input type="text" placeholder="Descripción" formControlName="description">
+        <input type="text" placeholder="Ubicación" formControlName="ubication">
+        <input type="text" placeholder="Estrellas" formControlName="stars">
+        <input type="text" placeholder="Valoración" formControlName="rating">
+        <input type="text" placeholder="Precio por noche" formControlName="pricePerNight">
+        <input type="text" placeholder="Capacidad" formControlName="capacity">
+        <div class="div-button">
+            <button class="hotel-button">Añadir hotel</button>
+        </div>
+
     </div>
-    
+
 </form>
