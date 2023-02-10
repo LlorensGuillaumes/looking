@@ -1,10 +1,41 @@
 .nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(75, 75, 75);
-    padding: 40px 0 40px 0;
-    &__a {
-        color: rgb(196, 196, 206);
-        font-size: 30px;
+  background-color: grey;
+
+  display: flex;
+  
+
+  .img-container {
+    height: 100px;
+    width: 450px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
     }
+  }
+
+  .a-container {
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+    width: 1182px;
+    padding-left: 50px;
+
+    a {
+      color: whitesmoke;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+
+  }
+
+  &__a:hover {
+    opacity: 70%;
+  }
 }
