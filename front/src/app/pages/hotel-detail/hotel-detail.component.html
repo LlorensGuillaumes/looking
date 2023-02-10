@@ -1,1 +1,26 @@
-<p>hotel-detail works!</p>
+<div *ngIf="hotelAbout">
+    <h4>{{hotelAbout.name}}</h4>
+    <div>
+        <p>{{hotelAbout.stars}}</p>
+        <p>{{hotelAbout.rating}}</p>
+    </div>
+    <div>
+        <div>
+            <img src="{{hotelAbout.image}}" alt="">
+        </div>
+        <div>{{hotelAbout.description}}</div>
+    </div>
+    <div>
+        <a href="{{hotelAbout.enlace}}">Ver hotel</a>
+        <a href="{{hotelAbout.ubication}}">¿Dónde está?</a>
+    </div>
+    <div>
+        <p>{{hotelAbout.pricePerNight}}</p>
+        <p>{{hotelAbout.capacity}}</p>
+    </div>
+
+    <div *ngFor="let imagen of hotelAbout.imageDetail">
+        <img src="{{imagen}}" alt="try">
+    </div>
+    
+</div>

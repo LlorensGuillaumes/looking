@@ -1,1 +1,18 @@
-<p>hotels works!</p>
+<div *ngIf="hotels">
+    <div *ngFor="let hotel of hotels">
+        <div  class="hotel">
+            <a routerLink="/hotel_detail/{{hotel.id}}" routerLinkActive="router-link-active" >
+                <h3 class="hotel-name">{{hotel.name}}</h3>
+                <div class="hotel-image">
+                    <img src="{{hotel.image}}" alt="{{hotel.name}}">
+                </div>
+                <div class="hotel-scores">
+                    <h4>{{hotel.stars}}</h4>
+                    <h4>{{hotel.rating}}</h4>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+
+</div>
