@@ -1,17 +1,20 @@
+
 import { NgModule, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { EditHotelRoutingModule } from './edit-hotel-routing.module';
 import { EditHotelComponent } from './edit-hotel.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    EditHotelComponent
+    EditHotelComponent,
+   
   ],
   imports: [
     CommonModule,
-    EditHotelRoutingModule
+    EditHotelRoutingModule, ReactiveFormsModule
   ]
 })
 export class EditHotelModule implements OnInit{

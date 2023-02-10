@@ -1,21 +1,20 @@
-import { ApiService } from './../../shared/services/api.service';
 import { Component, OnInit } from '@angular/core';
 import { Ihotel } from 'src/app/interfaces/ihotel';
-import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ApiService } from '../../services/api.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-add-hotel',
-  templateUrl: './add-hotel.component.html',
-  styleUrls: ['./add-hotel.component.scss']
+  selector: 'app-hotel-form',
+  templateUrl: './hotel-form.component.html',
+  styleUrls: ['./hotel-form.component.scss']
 })
-export class AddHotelComponent implements OnInit {
+export class HotelFormComponent implements OnInit  {
+
   hotelForm!: FormGroup; 
   hotel!: Ihotel;
   submitted: boolean = false;
   constructor(private form: FormBuilder, private api: ApiService, private route: Router) { }
-
   ngOnInit(): void {
     this.hotelForm = this.form.group({
       id: ['', [Validators.required]],
@@ -31,14 +30,6 @@ export class AddHotelComponent implements OnInit {
       capacity: ['', [Validators.required]],
     })
     
+
   }
-  
-  addHotel()  {
-    console.log('addHotel');
-    
-  }
-  addImageDetail() {
-    console.log('imageDetail')
-  }
-  
 }
