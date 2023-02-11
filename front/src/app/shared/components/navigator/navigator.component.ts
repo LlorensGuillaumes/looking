@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigator.component.scss']
 })
 export class NavigatorComponent implements OnInit{
-  contructor(){}
+  contructor(){
+    
+  }
 
   ngOnInit(): void {
     
   }
 
+
+
+  
 }
