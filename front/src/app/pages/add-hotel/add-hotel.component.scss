@@ -8,6 +8,22 @@ form{
         width: 600px;
         display: flex;
         flex-direction: column;
+
+        button {
+           width: 80px;
+           border-radius: 10px;
+           border: 0.3px solid purple;
+           background-color: #674188;
+           color: whitesmoke;
+        
+           
+
+        }
+
+        button:hover {
+            background-color: whitesmoke;
+            color: #674188;
+        }
       
 
 
@@ -15,9 +31,16 @@ form{
 
             margin: 10px 0 10px 0 ;
             padding: 10px 10px 10px 10px ;
+            box-shadow: inset -80px 90px 20px -100px rgb(0 0 0 / 75%);
+            border: none;
+            border-radius: 10px;
 
 
 
+        }
+
+        input:focus {
+            border: 0.5 solid black;
         }
         .img-button{
             padding:  10px 15px 10px 15px;

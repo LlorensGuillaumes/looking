@@ -1,5 +1,7 @@
 <form [formGroup]="hotelForm" (ngSubmit)="addHotel()" >
+ 
   <div class="container">
+    <h4>Añade el nuevo hotel:</h4>
     <input type="text" placeholder="Id" formControlName="id" />
     <input type="text" placeholder="Nombre" formControlName="name" />
     <input type="text" placeholder="Imagen" formControlName="image" />
