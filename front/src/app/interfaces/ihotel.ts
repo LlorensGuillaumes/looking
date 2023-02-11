@@ -2,7 +2,7 @@ export interface Ihotel {
     id: number;
     name: string;
     image: string;
-    imageDetail: [];
+    imageDetail: string[];
     enlace: string;
     description: string;
     ubication: string;
