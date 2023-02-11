@@ -9,6 +9,7 @@ import { HotelDetailComponent } from './pages/hotel-detail/hotel-detail.componen
 import { HotelsComponent } from './pages/hotels/hotels.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
 import { ApiService } from './shared/services/api.service';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ApiService } from './shared/services/api.service';
     HotelDetailComponent,
     HotelsComponent,
     NavigatorComponent,
-    HotelFormComponent
+    HotelFormComponent,
+    FooterComponent
     
   ],
   imports: [

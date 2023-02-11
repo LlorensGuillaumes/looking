@@ -2,6 +2,7 @@
     padding: 40px 220px 40px 220px;
     display: flex;
     align-items: center;
+    background-color: #F7EFE5;
     
 }
 .hotel {
@@ -9,6 +10,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    -webkit-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 12px 24px 0px rgba(0,0,0,0.75);
+background-color: white ;
     
     border: 2px solid navy;
     border-radius: 10px;
@@ -16,12 +21,12 @@
         width: 60%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         
         align-items: center;
     }
     &-name {
-        
+        text-align: center;
         display: flex;
     }
     &-test {
@@ -61,10 +66,12 @@
     &-scores {
         display: flex;
         flex-direction: row;
+
         justify-content: center;
         align-items: flex-start;
         justify-content: center;
         
+
     }
 }
 
