@@ -1,23 +1,48 @@
-<form [formGroup]="hotelForm" (ngSubmit)='addHotel()'>
-    <div class="container">
-        <input type="text" placeholder="Id" formControlName="id">
-        <input type="text" placeholder="Nombre" formControlName="name">
-        <input type="text" placeholder="Imagen" formControlName="image">
-        <div>
-            <input class="input-detail" type="text" placeholder="Imagenes extra" formControlName="imageDetail">
-            <button class="img-button" type="button" (click)='addImageDetail()'> Guardar</button>
-        </div>
-        <input type="text" placeholder="Enlace" formControlName="enlace">
-        <input type="text" placeholder="Descripción" formControlName="description">
-        <input type="text" placeholder="Ubicación" formControlName="ubication">
-        <input type="text" placeholder="Estrellas" formControlName="stars">
-        <input type="text" placeholder="Valoración" formControlName="rating">
-        <input type="text" placeholder="Precio por noche" formControlName="pricePerNight">
-        <input type="text" placeholder="Capacidad" formControlName="capacity">
-        <div class="div-button">
-            <button class="hotel-button">Añadir hotel</button>
-        </div>
-
+<form [formGroup]="hotelForm" (ngSubmit)="addHotel()" >
+  <div class="container">
+    <input type="text" placeholder="Id" formControlName="id" />
+    <input type="text" placeholder="Nombre" formControlName="name" />
+    <input type="text" placeholder="Imagen" formControlName="image" />
+    <div id="hotelForm">
+      <input
+        class="input-detail"
+        type="text"
+        placeholder="Imagenes extra"
+        #detalleImagen
+      /> 
+    
+      <button
+        class="img-button"
+        type="button"
+        (click)="addImageDetail({ imagen: detalleImagen.value })"
+      >
+        Guardar
+      </button>
     </div>
 
+    <input type="text" placeholder="Enlace" formControlName="enlace" />
+    <input
+      type="text"
+      placeholder="Descripción"
+      formControlName="description"
+    />
+    <input type="text" placeholder="Ubicación" formControlName="ubication" />
+    <input type="text" placeholder="Estrellas" formControlName="stars" />
+    <input type="text" placeholder="Valoración" formControlName="rating" />
+    <input
+      type="text"
+      placeholder="Precio por noche"
+      formControlName="pricePerNight"
+    />
+    <input type="text" placeholder="Capacidad" formControlName="capacity" />
+    <div class="div-button">
+      <button class="hotel-button">Añadir hotel</button>
+    </div>
+  </div>
 </form>
+
+<div *ngIf="listado">
+  <div clas="save-images">
+    <img *ngFor="let item of listado" src="{{ item }}" alt="" />
+  </div>
+</div>

@@ -1,3 +1,4 @@
+import { Ihotel } from './../../interfaces/ihotel';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 
@@ -13,10 +14,11 @@ export class ApiService {
   getHotels () {
     return this.http.get(this.url)
   }
-  getHotelsById (id: number) {
-    console.log('pepito');
-    
+  getHotelsById (id: number) {    
     return this.http.get(this.url+'/'+id)
   }
   
+  postComic(hotel: Ihotel){
+    return this.http.post(this.url, hotel);
+  }
 }
