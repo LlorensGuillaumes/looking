@@ -2,7 +2,6 @@ import { HotelFormComponent } from './shared/components/hotel-form/hotel-form.co
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HotelDetailComponent } from './pages/hotel-detail/hotel-detail.component';
@@ -10,8 +9,8 @@ import { HotelsComponent } from './pages/hotels/hotels.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
 import { ApiService } from './shared/services/api.service';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { LoginComponent } from './pages/login/login.component';
-import { RegisterComponent } from './pages/register/register.component';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -23,16 +22,16 @@ import { RegisterComponent } from './pages/register/register.component';
     NavigatorComponent,
     HotelFormComponent,
     FooterComponent,
-    LoginComponent,
-    RegisterComponent,
    
- 
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    CommonModule,
+    
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
