@@ -30,11 +30,13 @@
             </div>
         </div>
     </div>
-    
-    
-
-    <div *ngFor="let imagen of hotelAbout.imageDetail">
-        <img src="{{imagen}}" alt="try">
+    <div class="extra">
+        <div *ngFor="let imagen of hotelAbout.imageDetail" class="extra-images">
+            <img src="{{imagen}}" alt="try">
+        </div>
     </div>
+    <button (click)="editHotel()">Edita este hotel</button>
+    <button (click)="terminateHotel()">Eliminar este hotel</button>
+    
     
 </div>

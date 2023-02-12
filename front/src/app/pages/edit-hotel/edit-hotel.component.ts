@@ -10,13 +10,15 @@ import { Router } from '@angular/router';
   templateUrl: './edit-hotel.component.html',
   styleUrls: ['./edit-hotel.component.scss']
 })
-export class EditHotelComponent {
+export class EditHotelComponent implements OnInit {
   hotelForm!: FormGroup; 
   hotel!: Ihotel;
   submitted: boolean = false;
+  public id!: number;
   constructor(private form: FormBuilder, private api: ApiService, private route: Router) { }
 
   ngOnInit(): void {
+    console.log('adios');
     this.hotelForm = this.form.group({
       id: ['', [Validators.required]],
       name: ['', [Validators.required]],
@@ -29,15 +31,36 @@ export class EditHotelComponent {
       rating: [, [Validators.required]],
       pricePerNight: [, [Validators.required]],
       capacity: ['', [Validators.required]],
+      
+    })
+    this.hotelForm.valueChanges.subscribe((data) => {
+      console.log('holas');
+      
+      console.log(data);
+      
+      this.hotel = data;
+
     })
     
   }
   
   editHotel()  {
+    this.submitted = true;
+    if(this.hotelForm.valid){
+      let updatedHotel: Ihotel = this.hotel;
+      updatedHotel.id = this.id;
+      this.api.putHotel(updatedHotel).subscribe((response) => {
+        /* console.log(response); */
+        this.hotelForm.reset();
+        this.submitted = false;
+        this.route.navigate(["/hotels"])
+      })
+    }
     console.log('addHotel');
     
   }
   addEditImageDetail() {
     console.log('imageDetail')
   }
+ 
 }

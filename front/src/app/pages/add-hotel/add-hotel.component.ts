@@ -53,7 +53,7 @@ console.log(newHotel);
     newHotel.imageDetail = this.listado;
     
 
-    this.api.postComic(newHotel).subscribe((response) => {
+    this.api.postHotel(newHotel).subscribe((response) => {
       this.hotelForm.reset();
       this.route.navigate(['/hotels']);
     });
