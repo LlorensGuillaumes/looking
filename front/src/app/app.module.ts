@@ -24,7 +24,7 @@ import { RegisterComponent } from './pages/register/register.component';
     HotelFormComponent,
     FooterComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
    
  
     
@@ -37,4 +37,6 @@ import { RegisterComponent } from './pages/register/register.component';
   providers: [ApiService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
