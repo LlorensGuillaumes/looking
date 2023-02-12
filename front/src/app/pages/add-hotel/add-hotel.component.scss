@@ -9,6 +9,11 @@ form{
         display: flex;
         flex-direction: column;
 
+        h4 {
+            font-weight: bold;
+            color: #674188;
+        }
+
         button {
            width: 80px;
            border-radius: 10px;
@@ -38,6 +43,12 @@ form{
 
 
         }
+
+        input::placeholder { 
+            color: #674188;
+        }
+        
+        
 
         input:focus {
             border: 0.5 solid black;

@@ -10,6 +10,10 @@ import { HotelsComponent } from './pages/hotels/hotels.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
 import { ApiService } from './shared/services/api.service';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     HotelsComponent,
     NavigatorComponent,
     HotelFormComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    RegisterComponent,
+   
+ 
     
   ],
   imports: [
@@ -29,4 +37,6 @@ import { FooterComponent } from './shared/components/footer/footer.component';
   providers: [ApiService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }
