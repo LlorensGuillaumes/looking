@@ -1,6 +1,6 @@
 import { ApiService } from './../../shared/services/api.service';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-hotel-detail',
@@ -13,7 +13,7 @@ export class HotelDetailComponent implements OnInit {
   public hotelAbout: any;
   
 
-  constructor(private nameActual: ActivatedRoute, private api: ApiService) { }
+  constructor(private nameActual: ActivatedRoute, private api: ApiService, private route: Router) { }
 
 
   ngOnInit(): void {
@@ -25,7 +25,23 @@ export class HotelDetailComponent implements OnInit {
     this.api.getHotelsById(this.id).subscribe((data:any) => {
       this.hotelAbout = data;
     })
+    
+    
+    
+  }
+  editHotel(){
+    
+    this.api.setHotel(this.hotelAbout, this.id);
+    this.route.navigate(['hotel_edit']);
+  }
+  terminateHotel() {
+    this.api.deleteHotel(this.id).subscribe((data) => {
+      console.log(data, 'estoy dentro de terminateHotel');
+      
+      this.route.navigate(['hotels'])
+    })
+    console.log('voy a borrar' + this.id);
   
   }
-  
+
 }

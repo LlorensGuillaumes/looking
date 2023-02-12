@@ -7,7 +7,20 @@ import { HttpClient } from '@angular/common/http'
 })
 export class ApiService {
   public url: string = 'http://localhost:3000/hotels'
-
+  hotel: Ihotel = {
+    id: 0,
+    name: '',
+    image: '',
+    imageDetail: [],
+    enlace: '',
+    description: '',
+    ubication: '',
+    stars: 0,
+    rating: 0,
+    pricePerNight: 0,
+    capacity: ''
+  }
+  id: number = 0;
   
   constructor(private http:HttpClient) {  }
   
@@ -18,7 +31,26 @@ export class ApiService {
     return this.http.get(this.url+'/'+id)
   }
   
-  postComic(hotel: Ihotel){
+  postHotel(hotel: Ihotel){
     return this.http.post(this.url, hotel);
+  }
+
+  putHotel(hotel: Ihotel) {
+    return this.http.put(this.url+'/'+hotel.id, hotel);
+  }
+  
+  deleteHotel(id: number) {
+    console.log(id);
+    
+    return this.http.delete(this.url+'/'+id);
+  }
+
+  
+  setHotel(hotels: Ihotel, id: number) {
+    console.log('hola');
+    
+    this.hotel = hotels;
+    this.id = id;
+    
   }
 }

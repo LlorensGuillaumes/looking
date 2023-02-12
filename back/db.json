@@ -1,5 +1,4 @@
 {
-
   "hotels": [
     {
       "id": 1,
@@ -11,12 +10,12 @@
         "https://www.myboutiquehotel.com/photos/108118/vivood-landscape-hotel-5e-spa-adults-only-benimantell-062-51691-1110x700.jpg"
       ],
       "enlace": "https://www.vivood.com/?_gl=1%2A156lvxg%2A_ga%2AMTcxMTAyOTc3MC4xNjc1ODg1NTI2%2A_ga_MDSCBELG6M%2AMTY3NTg4NTUyNi4xLjAuMTY3NTg4NTUyNi42MC4wLjA.",
-      "description": "",
+      "description": "Mucho más que un hotel. Desconecta de la rutina, del estrés y conecta con la naturaleza y contigo mismo. Un espacio diseñado para adultos donde reavivar los sentidos y alcanzar el bienestar pleno en un lugar de calma y tranquilidad.",
       "ubication": "https://www.google.es/maps/place/Vivood+Landscape+Hotel/@38.6797459,-0.2063612,17z/data=!3m1!4b1!4m8!3m7!1s0xd61f64231b5e677:0x2cd1c5f81d1ebc70!5m2!4m1!1i2!8m2!3d38.6797586!4d-0.2041886?hl=es",
       "stars": 4,
       "rating": 4.6,
       "pricePerNight": 126,
-      "capacity": ""
+      "capacity": "2"
     },
     {
       "id": 2,
@@ -27,13 +26,13 @@
         "https://www.asiagardens.es/res/uploads/20151204145559-02-habdeluxe-supgaleria-1800x7004.jpg",
         "https://www.asiagardens.es/res/uploads/20151206111833-05-habsuite-bangaleria-1800x7001.jpg"
       ],
-      "enlace": "https://www.barcelo.com/es-es/asia-gardens-hotel-thai-spa-a-royal-hideaway-hotel/?id_hotel_sem=7326&gclid=CjwKCAiArY2fBhB9EiwAWqHK6si-_KYhYh3apYiiCBGzObhcwg660_4IkrA3N42KpDelC0NjUZsBsxoCHBEQAvD_BwE&nclid=AZH5b4SP-BWUPfCW8t2-Sr3TX1KTTF3X3wZlLfkp_DkEOPpfmSZe7pIgQ7wKmOKd",
-      "description": "",
+      "enlace": "https://www.asiagardens.es/",
+      "description": "Este exclusivo hotel con la serena esencia del sudeste asiático es miembro de Leading Hotels of the World, garantía del más absoluto relax y servicio exquisito.",
       "ubication": "https://www.google.es/maps/place/Asia+Gardens+Hotel+%26+Thai+Spa/@38.5533058,-0.1730025,17z/data=!3m1!4b1!4m8!3m7!1s0xd621b6bdf8d175f:0xafccb5fcc9f6e93e!5m2!4m1!1i2!8m2!3d38.5533016!4d-0.1708138?hl=es",
       "stars": 5,
       "rating": 4.6,
       "pricePerNight": 360,
-      "capacity": ""
+      "capacity": "7"
     },
     {
       "id": 3,
@@ -168,7 +167,6 @@
       "pricePerNight": "153",
       "capacity": "2"
     }
-    
   ],
   "cutreHotels": [
     {
@@ -239,5 +237,6 @@
       "capacity": "3"
     }
 
-  ]}
+  ]
+}
 
