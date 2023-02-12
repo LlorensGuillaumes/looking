@@ -11,3 +11,4 @@ export interface Ihotel {
     pricePerNight: number;
     capacity: string;
 }
+
